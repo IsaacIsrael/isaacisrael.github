@@ -109,9 +109,8 @@ h2 ~ p{
 /* HERO STYLES */
 .full-hero {
     background-color: #c7dbfc;
-    background-size: 300px auto;
-    background-repeat: no-repeat;
-    box-sizing: border-box;
+    background-size: cover;
+    box-sizing: border-box;;
     height: 100vh;
     padding-top: 10vh;
 }
@@ -128,6 +127,14 @@ h2 ~ p{
     font-size: 7vw;
     margin-bottom: .25em;
 }
+.hero-content h1:before {
+    color: blue;
+    content: "B";
+}
+.hero-content h1:after {
+    color: red;
+    content: "A";
+}
 .hero-content .social-link{
     background-color: rgba(255,255,255,0.8);
     color: #557c83;
@@ -138,7 +145,7 @@ h2 ~ p{
 }
 .hero-home {
     background-image: url(/images/shark.jpg);
-    background-position: 30% center;
+    background-position: center top;
 }
 
 
