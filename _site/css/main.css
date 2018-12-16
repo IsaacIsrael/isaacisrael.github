@@ -114,6 +114,24 @@ h2 ~ p{
     height: 100vh;
     padding-top: 10vh;
 }
+.full-hero:after{
+    border: 10px solid;
+    border-color: #fff transparent transparent;
+    bottom: 2vh;
+    content: "";
+    height: 0;
+    left: 50%;
+    position:absolute;
+    transform:  translate(-50%,0);
+    width: 0
+    /*bottom: 2vh;
+    color: #fff;
+    content: "﹀";
+    font-size: 36px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 0);*/
+}
 .hero-content{
     color: #fff;
     position: relative;
@@ -126,14 +144,6 @@ h2 ~ p{
     color: rgba(255,255,255,0.8);
     font-size: 7vw;
     margin-bottom: .25em;
-}
-.hero-content h1:before {
-    color: blue;
-    content: "B";
-}
-.hero-content h1:after {
-    color: red;
-    content: "A";
 }
 .hero-content .social-link{
     background-color: rgba(255,255,255,0.8);
