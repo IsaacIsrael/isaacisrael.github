@@ -73,6 +73,12 @@ h2 ~ p{
 .full-hero {
     background-color: #c7dbfc;
     height: 50vh;
+    position: relative;
+}
+.full-hero  ul{
+    bottom: 5px;
+    left: 5px;
+    position: absolute;
 }
 /*.full-hero:hover{
   background-color: RGBA(22, 1, 199, 1.00);
